@@ -3,9 +3,11 @@ layout: post
 title: Project 1 - MTA Subway Data
 ---
 
+This week I finished my first project at Metis!
+
 #### The Project
 
-This week I finished my first project at Metis. Our goal was to help WomenTechWomenYes (WTWY), a fictitious organization, devise a strategy to build public awareness about their organization and mission. In less than a week, my partner and I explored the New York MTA subway data to make our recommendations of locations to place street teams at entrances to subway stations.
+Our goal for the project was to help WomenTechWomenYes (WTWY), a fictitious organization, devise a strategy to build public awareness about their organization and mission. In less than a week, my partner and I explored the New York MTA subway data to make our recommendations of locations to place street teams at entrances to subway stations.
 
 Keeping in mind that WTWY had limited resources and a tight schedule, we approached this problem by identifying women and individuals in the tech industry because they would most likely be interested in WTWY's mission. In the end, we recommended high traffic subway stations located in tech hubs, areas with a high number of tech companies, start ups, and bootcamps. We also recommended subway stations in residential areas with higher numbers of women and tech employees (based on census data).
 
@@ -17,13 +19,13 @@ Between 8 am to 10 pm, the Grand Central - 42nd St Station was by far the busies
 
 Half of all the subway stations have over 500 people entering the station per hour. The black line indicates the median.
 
-![top15_busiest]({{ site.baseurl }}/images/top15_busiest.png)
+![hourly_avg_histogram]({{ site.baseurl }}/images/all_stations_histogram.png)
 
 As we expected, stations are the busiest during the week compared to the weekend.
 
 ![weekday_stations]({{ site.baseurl }}/images/weekday_stations.png)
 
-#### Reflection
+#### Reflections
 
 This project was a great exercise to practice using numpy and pandas to manipulate and explore the data. Although the MTA subway data was publicly available online, there were many inconsistencies in how the data was collected and recorded. I was able to appreciate how data scientists spend a lot of their time cleaning and organizing data. Best of all, I learned to pickle objects using the pickle module to save my clean data frame for future use. This little gem saved me some time when restarting my jupyter notebook.
 
