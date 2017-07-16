@@ -3,49 +3,30 @@ layout: post
 title: Project 1: MTA Subway Data
 ---
 
-This week I finished my first project at Metis. Our goal was to help WomenTechWomenYes (WTWY), a fictitious organization, devise a strategy to build public awareness about their organization and mission. Over the 4 days, my partner and I explored the New York MTA subway data to make our recommendations of locations to place street teams at entrances to subway stations.
+#### The Project
 
-Keeping in mind that WTWY had limited resources, we approached this problem by targeting women and individuals involved in the tech industry because they would identify most with WTWY's mission. In the end, we recommended high traffic subway stations located in tech hubs, areas with a high number of tech companies, start ups, and bootcamps. We also recommended subway stations in residential areas with higher numbers of women and tech employees (based on census data).
+This week I finished my first project at Metis. Our goal was to help WomenTechWomenYes (WTWY), a fictitious organization, devise a strategy to build public awareness about their organization and mission. In less than a week, my partner and I explored the New York MTA subway data to make our recommendations of locations to place street teams at entrances to subway stations.
 
-Here are a couple of fun things we found while exploring the data:
+Keeping in mind that WTWY had limited resources and a tight schedule, we approached this problem by identifying women and individuals in the tech industry because they would most likely be interested in WTWY's mission. In the end, we recommended high traffic subway stations located in tech hubs, areas with a high number of tech companies, start ups, and bootcamps. We also recommended subway stations in residential areas with higher numbers of women and tech employees (based on census data).
+
+Here are a few fun things we found while exploring the data:
 
 Between 8 am to 10 pm, the Grand Central - 42nd St Station was by far the busiest subway station.
 
 ![top15_busiest]({{ site.baseurl }}/images/top15_busiest.png)
 
-Half of all the subway stations have over 587 people entering the station per hour. The black line indicates the median.
+Half of all the subway stations have over 500 people entering the station per hour. The black line indicates the median.
 
 ![top15_busiest]({{ site.baseurl }}/images/top15_busiest.png)
 
-As we would expect, stations are the busiest during the week compared to the weekend.
+As we expected, stations are the busiest during the week compared to the weekend.
 
+![weekday_stations]({{ site.baseurl }}/images/weekday_stations.png)
 
-#### Reflections
+#### Reflection
 
-This project was a great exercise to familiarize myself with numpy, pandas, matplotlib and seaborn. Although the MTA subway data was publicly available online, there were many inconsistencies in how the data was collected and recorded. I was able to appreciate how data scientists spend a majority of their data work flow cleaning and organizing data. At times, I found cleaning the data to be a bit challenging, but I was pleased when I was able to find a solution.
+This project was a great exercise to practice using numpy and pandas to manipulate and explore the data. Although the MTA subway data was publicly available online, there were many inconsistencies in how the data was collected and recorded. I was able to appreciate how data scientists spend a lot of their time cleaning and organizing data. Best of all, I learned to pickle objects using the pickle module to save my clean data frame for future use. This little gem saved me some time when restarting my jupyter notebook.
 
-Although I have used R and ggplot2 before, I had less experience with analyzing data in python.
-I have more confidence in my ability to use python.
+I used also matplotlib and seaborn to vizualize the data. This was my first time using seaborn, and I enjoyed it. When it comes to plots, I typically prefer a minimalistic style without extraneous colors or elements. Plots created for presentations should be easy to read and convey a single message. Of course these plots are different from the ones created during exploratory data analysis, which tends to have many elements and take more time to understand. I found that seaborn was similar to ggplot2 in R, which I have used many times before, in that there is a clean default style but still allows for customizations.
 
-
-
-
-
-- title image?
-- explain objective/problem: group project
-- approach/assumptions
-- summary of results: show example area map, graph of week day, average entries,
-- interesting thoughts, things to consider
-
-> As we mentioned, we are interested in harnessing the power of data and analytics to optimize the effectiveness of our street team work, which is a significant portion of our fundraising efforts.
->
-> WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.
->
-> To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala.
->
-> Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause.
-
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+There are many more avenues my partner and I could have explored with the MTA subway data, but due to our time constraint, we had to be strategic about which questions to tackle. Overall, I thought that Project 1 was a great learning experience. There were python gems I learned along the way that will be useful for future projects.
