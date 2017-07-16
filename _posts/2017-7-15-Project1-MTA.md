@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project 1: MTA Subway Data
+title: Project 1 - MTA Subway Data
 ---
 
 #### The Project
